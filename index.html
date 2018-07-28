@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Name: Sunhye Kwon
+Assignment: Assignment 4
+Date: Jun 10 2017
+
+Description: This is html file for Pick-A-Pair game.
+Files: pickApair.js- Javascript for Pick-A-Pair game
+main.css - The main styles css file
+-->
+<html>
+<head>
+    <title>Pick-A-Pair: Sunhye Kwon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="scripts/pickApair.js"></script>
+</head>
+<body>
+    <!-- Don't forget to:
+1. Link to your JS in the HEAD section.
+2. Link to the stylesheet.  
+3. Edit the TITTLE of the document (see assignment specification).
+4. Put your first & last name in the FOOTER. -->
+    <!-- Don't forget to:
+    1. Link to your JS in the HEAD section.
+    2. Link to the stylesheet.
+    3. Edit the TITTLE of the document (see assignment specification).
+    4. Put your first & last name in the FOOTER. -->
+    <header><h1>Pick-A-Pair</h1></header>
+
+    <div>
+        <a href="index.html"></a>
+        <div id="message">
+            <p>GAME OVER!</p>
+            <h3 id="winner"></h3>
+            <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+        </div>
+        <div id="overlay"></div>
+
+        <table id="board"></table>
+        <div class="gameTicker">Game Timer: <span id="ticker">00:00</span></div>
+    </div>
+
+    <footer><address>Sunhye Kwon @ SYST10199 Web Programming, Sheridan College</address></footer>
+</body>
+</html>
